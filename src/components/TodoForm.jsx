@@ -21,7 +21,7 @@ const TodoForm = (addTodo) => {
         value={value}
         onChange={(e)=>setValue(e.target.value)}
         />
-        <select value={category} onChange={(e)=>setCategory(e.target.category)}>
+        <select value={category} onChange={(e)=>setCategory(e.target.value)}>
             <option value="">Selecione uma categoria</option>
             <option value="Trabalho">Trabalho</option>
             <option value="Pessoal">Pessoal</option>
