@@ -1,4 +1,4 @@
-const Filter = (filter, setFilter, setSort) => {
+const Filter = ({ filter, setFilter, setSort }) => {
   return (
     <div className="filter">
       <h2>Filtrar</h2>
